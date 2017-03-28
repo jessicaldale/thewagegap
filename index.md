@@ -8,7 +8,10 @@ White men out-earn black and hispanic men and all groups of women.
 
 
 #### More information
+The most stubborn gap is that in opportunities for people of color, in particular women.
 
+links to resources:
+http://www.code2040.org/
 
 social sharing:
 
@@ -20,4 +23,12 @@ http://www.pewresearch.org/fact-tank/2016/07/01/racial-gender-wage-gaps-persist-
 
 footer:
 #### An Activist Action for Women's History Month by Jess Dale
+
+Q: How did I start this project?
+A: I reading an article that got me thinking about 
+
+Q: What questions came up for me?
+
 https://medium.com/@jessprogresses
+
+
