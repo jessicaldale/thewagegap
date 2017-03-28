@@ -20,3 +20,4 @@ http://www.pewresearch.org/fact-tank/2016/07/01/racial-gender-wage-gaps-persist-
 
 footer:
 #### An Activist Action for Women's History Month by Jess Dale
+https://medium.com/@jessprogresses
