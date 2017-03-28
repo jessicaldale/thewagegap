@@ -6,3 +6,9 @@ White men out-earn black and hispanic men and all groups of women.
 
 1. Enter your weekly, monthly or annual salary
 2. Press calculate
+
+
+
+
+##### Based on research conducted in 2016 by Pew Research Center
+http://www.pewresearch.org/fact-tank/2016/07/01/racial-gender-wage-gaps-persist-in-u-s-despite-some-progress/
