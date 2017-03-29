@@ -19,7 +19,7 @@ White men out-earn black and hispanic men and all groups of women.
 
 
 <p id="gap"></p>
-
+<p id="difference"></p>
 <br />
 
 #### More information
