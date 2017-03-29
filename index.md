@@ -14,9 +14,7 @@ White men out-earn black and hispanic men and all groups of women.
 
 <select id="selectGap" onchange="calculateGap()">
 <option>--Select--</option>
-<option value="81">White Women</option> 
-<option value="75">Black Women</option> 
-</select> 
+<option id="hW" value="58">Hispanic Women</option> <option id="bW" value="75">Black Women</option> <option id="wW" value="81">White Women</option> </select> 
 
 <br />
 
