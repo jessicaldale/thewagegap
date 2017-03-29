@@ -34,7 +34,10 @@
 	// convert this to money format  
     	gap = gap.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 	// output the result
-    	document.getElementById('gap').innerHTML = "White Dude's Salary = $"+gap;
+    	document.getElementById('gap').innerHTML = "White Dude's Salary by comparison = $"+gap;
+	
+	var difference = gap - salary;
+	document.getElementById('difference').innerHTML = "Difference in salary = $"+difference;
   }
   </script>
   
