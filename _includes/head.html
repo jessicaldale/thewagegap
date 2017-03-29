@@ -22,18 +22,10 @@
     //var bWpayrate = document.getElementById('bW').value;
     //var hWpayrate = document.getElementById('hW').value;
     
-     if(document.getElementById("selectGap").value == "81")
-     {
-       var payrate = document.getElementById('wW').value;
-     }     
-       else if (document.getElementById("selectGap").value == "75")
-       {
-         var payrate = document.getElementById('bW').value;
-       }
-       else (document.getElementById("selectGap").value == "58")
-  	{
-         var payrate = document.getElementById('hW').value;
-       }
+     	//get the value of the selected option
+	var e = document.getElementById("selectGap");
+	// do the math based on value
+	var payrate = e.options[e.selectedIndex].value;
 		   
     var math = (salary * 100) / payrate;
     var gap = math.toFixed(2);
