@@ -19,8 +19,8 @@
    function calculateGap () {
     var salary = document.getElementById('currentSalary').value;
     var wWpayrate = document.getElementById('wW').value;
-    var bWpayrate = 75 //value
-    var hWpayrate = 58 //value
+    var bWpayrate = document.getElementById('bW').value;
+    var hWpayrate = document.getElementById('hW').value;
     var math = (salary * 100) / wWpayrate;
     var gap = math.toFixed(2);
     gap = gap.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
