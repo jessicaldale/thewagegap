@@ -18,11 +18,13 @@
   <script>
    function calculateGap () {
     var salary = document.getElementById('currentSalary').value;
-    var payrate = 75 //value
-    var math = (salary * 100) / payrate;
+    var wWpayrate = document.getElementById('wW').value;
+    var bWpayrate = 75 //value
+    var hWpayrate = 58 //value
+    var math = (salary * 100) / wWpayrate;
     var gap = math.toFixed(2);
     gap = gap.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    document.getElementById('gap').innerHTML = "Black Women's Salary = $"+gap;
+    document.getElementById('gap').innerHTML = "White Dude's Salary = $"+gap;
   }
   </script>
   
