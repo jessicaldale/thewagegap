@@ -26,6 +26,8 @@
 	var e = document.getElementById("selectGap");
 	// do the math based on value
 	var payrate = e.options[e.selectedIndex].value;
+	   
+	   console.log(payrate);
 		   
     var math = (salary * 100) / payrate;
     var gap = math.toFixed(2);
