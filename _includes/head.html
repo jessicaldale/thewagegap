@@ -21,7 +21,19 @@
     var wWpayrate = document.getElementById('wW').value;
     var bWpayrate = document.getElementById('bW').value;
     var hWpayrate = document.getElementById('hW').value;
-    var math = (salary * 100) / wWpayrate;
+    
+     if(document.getElementById("selectGap").value == "81"){
+       var payrate = document.getElementById('wW').value;
+       else (document.getElementById("selectGap").value == "75")
+       {
+         var payrate = document.getElementById('bW').value;
+       }
+       else (document.getElementById("selectGap").value == "58"){
+         var payrate = document.getElementById('hW').value;
+       }
+		   
+       
+    var math = (salary * 100) / payrate;
     var gap = math.toFixed(2);
     gap = gap.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     document.getElementById('gap').innerHTML = "White Dude's Salary = $"+gap;
