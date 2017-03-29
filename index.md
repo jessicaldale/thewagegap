@@ -7,7 +7,7 @@ White men out-earn black and hispanic men and all groups of women.
 
 
 ### Enter your weekly, monthly or annual salary: $
-<input id="currentSalary" type="number" min="1" max="1000000" onchange="calculateGap()"></p>
+<input id="currentSalary" type="number" min="1" max="1000000">
 
 <select id="selectGap" onchange="calculateGap()">
 <option>--Select--</option>
