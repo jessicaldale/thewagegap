@@ -1,4 +1,4 @@
-window.onload = function () {   
+
   function calculateGap () {
     var salary = document.getElementByID('currentSalary').value;
     var payrate = .75 //value
@@ -7,4 +7,4 @@ window.onload = function () {
     gap = gap.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     document.getElementById('gap').innerHTML = "Black Women's Salary = $"+payment;
   }
-};
+
