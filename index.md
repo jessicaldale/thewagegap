@@ -17,6 +17,7 @@ White men out-earn black and hispanic men and all groups of women.
 
 <br />
 
+
 <p id="gap"></p>
 
 <br />
@@ -44,6 +45,5 @@ A: I reading an article that got me thinking about
 Q: What questions came up for me?
 
 https://medium.com/@jessprogresses
-#BlackWomenAtWork
-
+https://twitter.com/search?q=%23BlackWomenAtWork
 
