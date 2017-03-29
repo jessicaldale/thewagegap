@@ -6,7 +6,7 @@ Title: The Wage Gap
 White men out-earn black and hispanic men and all groups of women.
 
 
-### Enter your weekly, monthly or annual salary: $
+### Enter a salary and select one of the women to see how much they make for every white dude dollar: $
 <input id="currentSalary" type="number" min="1" max="1000000">
 
 <select id="selectGap" onchange="calculateGap()">
@@ -44,5 +44,6 @@ A: I reading an article that got me thinking about
 Q: What questions came up for me?
 
 https://medium.com/@jessprogresses
+#BlackWomenAtWork
 
 
