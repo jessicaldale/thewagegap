@@ -1,3 +1,7 @@
+---
+Title: The Wage Gap
+---
+
 ## The Wage Gap, by Race and Gender
 White men out-earn black and hispanic men and all groups of women.
 
