@@ -19,9 +19,9 @@
    function calculateGap () {
     	// check the value of salary entered
 	var salary = document.getElementById('currentSalary').value;
-   	//get the value of the selected option
+   	//get the value of the selected option from the dropdown
 	var e = document.getElementById("selectGap");
-	// do the math based on value
+	// create a dynamic payrate for the maths
 	var payrate = e.options[e.selectedIndex].value;
 	
 	   //make sure i'm getting the right values for the math!
@@ -29,13 +29,10 @@
 	
 	// my wife helped me with this calculation :)
     	var math = (salary * 100) / payrate;
-	   
     	// do the calculation and add decimal places
 	var gap = math.toFixed(2);
-	
 	// convert this to money format  
     	gap = gap.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-	
 	// output the result
     	document.getElementById('gap').innerHTML = "White Dude's Salary = $"+gap;
   }
