@@ -17,22 +17,27 @@
   
   <script>
    function calculateGap () {
-    var salary = document.getElementById('currentSalary').value;
-    //var wWpayrate = document.getElementById('wW').value;
-    //var bWpayrate = document.getElementById('bW').value;
-    //var hWpayrate = document.getElementById('hW').value;
-    
-     	//get the value of the selected option
+    	// check the value of salary entered
+	var salary = document.getElementById('currentSalary').value;
+   	//get the value of the selected option
 	var e = document.getElementById("selectGap");
 	// do the math based on value
 	var payrate = e.options[e.selectedIndex].value;
-	   
+	
+	   //make sure i'm getting the right values for the math!
 	   console.log(payrate);
-		   
-    var math = (salary * 100) / payrate;
-    var gap = math.toFixed(2);
-    gap = gap.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    document.getElementById('gap').innerHTML = "White Dude's Salary = $"+gap;
+	
+	// my wife helped me with this calculation :)
+    	var math = (salary * 100) / payrate;
+	   
+    	// do the calculation and add decimal places
+	var gap = math.toFixed(2);
+	
+	// convert this to money format  
+    	gap = gap.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	
+	// output the result
+    	document.getElementById('gap').innerHTML = "White Dude's Salary = $"+gap;
   }
   </script>
   
