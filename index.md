@@ -12,6 +12,14 @@ White men out-earn black and hispanic men and all groups of women.
 
 <p>Current Salary: $<input id="currentSalary" type="number" min="1" max="1000000" onchange="calculateGap()"></p>
 
+<select id="selectGap" onchange="calculateGap()">
+<option>--Select--</option>
+<option value="81">White Women</option> 
+<option value="75">Black Women</option> 
+
+</select> 
+<br />
+
 <p id="gap"></p>
 
 #### More information
