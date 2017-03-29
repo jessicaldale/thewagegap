@@ -10,6 +10,9 @@ White men out-earn black and hispanic men and all groups of women.
 1. Enter your weekly, monthly or annual salary
 2. Press calculate
 
+Current Salary: $<input id="currentSalary" type="number" min="1" max="1000000" onchange="calculateGap()">
+
+<p id="gap"></p>
 
 #### More information
 The most stubborn gap is that in opportunities for people of color, in particular women.
