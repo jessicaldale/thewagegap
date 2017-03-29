@@ -6,17 +6,20 @@ Title: The Wage Gap
 White men out-earn black and hispanic men and all groups of women.
 
 
-### Enter your salary to see the gap
-
-<p>Enter your weekly, monthly or annual salary: $<input id="currentSalary" type="number" min="1" max="1000000" onchange="calculateGap()"></p>
+### Enter your weekly, monthly or annual salary: $
+<input id="currentSalary" type="number" min="1" max="1000000" onchange="calculateGap()"></p>
 
 <select id="selectGap" onchange="calculateGap()">
 <option>--Select--</option>
-<option id="hW" value="58">Hispanic Women</option> <option id="bW" value="75">Black Women</option> <option id="wW" value="81">White Women</option> </select> 
+<option id="hW" value="58">58 cents as a Hispanic Women</option> 
+<option id="bW" value="75">75 cents as a Black Women</option> 
+<option id="wW" value="81">81 cents as a White Women</option> </select> 
 
 <br />
 
 <p id="gap"></p>
+
+<br />
 
 #### More information
 The most stubborn gap is that in opportunities for people of color, in particular women.
