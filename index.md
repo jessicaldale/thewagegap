@@ -7,10 +7,8 @@ White men out-earn black and hispanic men and all groups of women.
 
 
 ### Enter your salary to see the gap
-1. Enter your weekly, monthly or annual salary
-2. Press calculate
 
-<p>Current Salary: $<input id="currentSalary" type="number" min="1" max="1000000" onchange="calculateGap()"></p>
+<p>Enter your weekly, monthly or annual salary: $<input id="currentSalary" type="number" min="1" max="1000000" onchange="calculateGap()"></p>
 
 <select id="selectGap" onchange="calculateGap()">
 <option>--Select--</option>
