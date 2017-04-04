@@ -28,12 +28,17 @@ $on-laptop:        800px;
 
 
 .site-header {display: none;}
-.site-footer {border-top: none; padding: 10px 0;}
+.site-footer {border-top: none !important; padding: 10px 0 !important;}
 
 h1, h2, h3, h4, h5 {font-family: 'Work Sans', sans-serif; font-weight: 500 !important;}
 
 .page-content {
-   background-image: linear-gradient(to bottom, #3C2E28, #4B3932, #593B2B, #C5845C, #E9B78A);
+   background-image: 
+      linear-gradient(to bottom, #3C2E28, #3C2E28),
+         linear-gradient(to bottom, #4B3932, #4B3932),
+            linear-gradient(to bottom, #593B2B, #593B2B),
+               linear-gradient(to bottom, #C5845C,#C5845C), 
+                  linear-gradient(to bottom, #593B2B, #E9B78A);
    background-repeat:no-repeat;
    background-position: 
    /* Image position*/0 0,
