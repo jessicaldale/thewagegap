@@ -36,8 +36,19 @@ h1, h2, h3, h4, h5 {font-family: 'Work Sans', sans-serif; font-weight: 500 !impo
    background-image: linear-gradient(to bottom, #3C2E28 0%, #4B3932 50%, #593B2B 75%, #C5845C 87.5%, #E9B78A 100%);
    background-repeat:no-repeat;
    background-position: 
-   /* Image position*/0 0,/* Color one position*/0 50px,/* Color two position*/0 150px,/* Color three position*/0 300px, /* Color four position*/0 600px/* Color five position*/0 900px;
-   background-size:/*Image size*/ 100%,/*Color one size*/ 100% 30px, /*Color two size*/ 100% 30px;
+   /* Image position*/0 0,
+      /* Color one position*/0 50px,
+      /* Color two position*/0 150px,
+      /* Color three position*/0 300px, 
+      /* Color four position*/0 600px,
+      /* Color five position*/0 900px;
+   background-size:
+      /*Image size*/ 100%,
+      /*Color one size*/ 100% 30px,
+      /*Color two size*/ 100% 30px, 
+      /*Color three size*/ 100% 30px, 
+      /*Color four size*/ 100% 30px, 
+      /*Color five size*/ 100% 30px;
 }
 
 
