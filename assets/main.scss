@@ -31,18 +31,14 @@ $on-laptop:        800px;
 
 h1, h2, h3, h4, h5 {font-family: 'Work Sans', sans-serif; font-weight: 500 !important;}
 
-.tones {
-    width: 330px;
-    height: 240px;
+.page-content {
+    height: 100%;
     background-image: 
         linear-gradient(to top, #3c2e28, #3c2e28), 
         linear-gradient(to top, #4b3932, #4b3932), 
         linear-gradient(to top, #593b2b, #593b2b),
         linear-gradient(to top, #c5845c, #c5845c),
         linear-gradient(to top, #e9b78a, #e9b78a);
-    background-repeat: no-repeat;
-    background-position: 0 0, 110px 0, 220px 0;
-    background-size: 110px 100%, 110px 100%, 110px 100%;
 }
 
 
